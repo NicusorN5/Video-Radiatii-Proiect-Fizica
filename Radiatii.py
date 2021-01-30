@@ -7,10 +7,7 @@ class Intro(Scene):
 		title = Tex("Radiatii electromagnetice",font = 'Cambria Math')
 		title.set_color(RED_C)
 
-		auth = Tex("Tugui Nicolae cls. a XII-a A")
-		auth.to_corner(RIGHT+DOWN)
-
-		self.play(ShowCreation(title),ShowCreation(auth))
+		self.play(ShowCreation(title))
 		self.wait(2)
 
 		title2 = Tex("Radiatii electromagnetice",font = 'Cambria Math')
